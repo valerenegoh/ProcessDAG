@@ -15,8 +15,10 @@ This program works much better in Linux than Windows. It is suggested that you u
 ### For Linux shell:
 1) Change directory (using the command `cd`) to the directory location containing all your files.
 2) Compile the java file using the following command:
+
   `$ javac ProcessManagement.java`
   Run the java file using the following command, whereby `[arg]` is either one of: `graph-file`/`graph-file1`/`graph-file2`/`graph-file3`
+  
   `$ java ProcessManagement [arg]`
   
 ### For IDE:
@@ -30,6 +32,7 @@ This program works much better in Linux than Windows. It is suggested that you u
 ProcessManagement.java passes the graph file into ParseFile.java.
 
 The program ProcessManagement reads it line by line and parses the information contained in it (colon delimited). Each node of the graph is represented by a line with the following format:
+
 `program name with arguments:list of children ID's:input file:output file`
 
 The program first checks if all nodes have been executed and if a cycle exists in the graph (all process nodes are not runnable while there still exist unexecuted process nodes), subject to race condition. This feature is part of deadlock prevention.
