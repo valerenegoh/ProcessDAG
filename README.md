@@ -1,8 +1,7 @@
 # SUTD ISTD Term 5 Programming Assignment 1
-Programming Assignment 1
-Author : Valerene Goh Ze Yi
-ID: 1002457
-Date : 09/03/2018
+- Author : Valerene Goh Ze Yi
+- ID: 1002457   
+- Date : 09/03/2018
 
 ## Purpose of this program
 This program traverses a directed acyclic graph (DAG) of user programs from an input text file in parallel, while fulfilling both contol and data dependencies between each other. Multithreading is implemented for the processes that are labelled runnable for that particular iteration. The diagram shows a visual representaion of the DAG traversal for a corresponding graph file.
