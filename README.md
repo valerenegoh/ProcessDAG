@@ -17,7 +17,8 @@ This program works much better in Linux than Windows. It is suggested that you u
 2) Compile the java file using the following command:
 
   `$ javac ProcessManagement.java`
-  Run the java file using the following command, whereby `[arg]` is either one of: `graph-file`/`graph-file1`/`graph-file2`/`graph-file3`
+  
+ 3) Run the java file using the following command, whereby `[arg]` is either one of: `graph-file`/`graph-file1`/`graph-file2`/`graph-file3`:
   
   `$ java ProcessManagement [arg]`
   
