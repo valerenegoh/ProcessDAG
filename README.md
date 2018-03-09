@@ -1,10 +1,7 @@
 # SUTD ISTD Term 5 Programming Assignment 1
 Programming Assignment 1
-
 Author : Valerene Goh Ze Yi
-
 ID: 1002457
-
 Date : 09/03/2018
 
 ## Purpose of this program
