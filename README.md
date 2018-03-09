@@ -31,7 +31,7 @@ This program works much better in Linux than Windows. It is suggested that you u
 ## What exactly the program does
 ProcessManagement.java passes the graph file into ParseFile.java.
 
-The program ProcessManagement reads it line by line and parses the information contained in it (colon delimited). Each node of the graph is represented by a line with the following format:
+The program ProcessManagement reads it line by line and parses the information contained in it (colon delimited). Each node of the graph is represented by a line with the following format (space-delimited for multiple arguments):
 
 `program name with arguments:list of children ID's:input file:output file`
 
