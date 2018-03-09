@@ -6,7 +6,7 @@
 ## Purpose of this program
 This program traverses a directed acyclic graph (DAG) of user programs from an input text file in parallel, while fulfilling both contol and data dependencies between each other. Multithreading is implemented for the processes that are labelled runnable for that particular iteration. The diagram shows a visual representaion of the DAG traversal for a corresponding graph file.
 
-![picture1](https://user-images.githubusercontent.com/23626462/37206479-bdac3e44-23d3-11e8-8646-d08b54ae0e9c.png)
+![picture2](https://user-images.githubusercontent.com/23626462/37206531-ec290716-23d3-11e8-9d62-41b2009e0287.png)
 
 ## How to compile this program
 This program works much better in Linux than Windows. It is suggested that you use a Virtual Machine such as Ubuntu to run it if you are not a Linux user.
